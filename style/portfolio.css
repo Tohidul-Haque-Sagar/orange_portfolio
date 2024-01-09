@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .nav-title{
-    color: var(--Dark-01, #181818);
+
     font-family: Open Sans;
     font-size: 45px;
     font-style: normal;
@@ -22,6 +22,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 200px;
 }
 nav>ul{
     display: flex;
@@ -44,4 +45,19 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+p{
+    color: #757575;
+}
+.profile-picture{
+    width: 500px;
+
 }
